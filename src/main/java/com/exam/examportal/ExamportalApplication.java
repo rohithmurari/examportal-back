@@ -33,23 +33,23 @@ public class ExamportalApplication{
 //		System.out.println("Starting code");
 //
 //		User user = new User();
-//		user.setFirstName("Rohith");
-//		user.setLastName("Murari");
-//		user.setUsername("rohith");
-//		user.setPassword(this.bCryptPasswordEncoder.encode("password"));
-//		user.setEmail("rohith@gmail.com");
-//		
+//		user.setFirstName("Gaganasri");
+//		user.setLastName("P");
+//		user.setUsername("gaganasri");
+//		user.setPassword(this.bCryptPasswordEncoder.encode("gagana123"));
+//		user.setEmail("gagana@gmail.com");
+//
 //		Role role1 = new Role();
 //		role1.setRoleId(46L);
 //		role1.setRoleName("ADMIN");
-//		
+//
 //		Set<UserRole> userRoleSet = new HashSet<>();
 //		UserRole userRole = new UserRole();
 //		userRole.setRole(role1);
 //		userRole.setUser(user);
-//		
+//
 //		userRoleSet.add(userRole);
-//		
+//
 //		User user1 = this.userService.createUser(user, userRoleSet);
 //		System.out.println(user1.getUsername());
 //	}catch(UserFoundException e) {

@@ -27,8 +27,8 @@ public class Question {
 	private String option2;
 	private String option3;
 	private String option4;
-	
-	
+
+    private boolean code=false;
 	private String answer;
 	
 	@Transient
@@ -131,6 +131,12 @@ public class Question {
 	public void setGivenAnswer(String givenAnswer) {
 		this.givenAnswer = givenAnswer;
 	}
-	
-	
+
+    public boolean isCode() {
+        return code;
+    }
+
+    public void setCode(boolean code) {
+        this.code = code;
+    }
 }
