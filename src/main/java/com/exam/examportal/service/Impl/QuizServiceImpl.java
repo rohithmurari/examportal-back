@@ -67,6 +67,8 @@ public class QuizServiceImpl implements QuizService{
 		// TODO Auto-generated method stub
 		return this.quizRepository.findByCategoryAndActive(c, true);
 	}
+	
+	
 
 //	@Override
 //	public List<Quiz> getActiveResultQuizzes() {

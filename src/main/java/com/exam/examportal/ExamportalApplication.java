@@ -15,7 +15,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @SpringBootApplication
-public class ExamportalApplication{
+public class ExamportalApplication {
 
 	@Autowired
 	private UserService userService;
